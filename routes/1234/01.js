@@ -101,3 +101,33 @@ router.get('/animals', (req, res) => {
     }
   ]);
 });
+
+router.get('/animals', (req, res) => {
+  res.json([
+    {
+      "animal_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "Golden Retriever",
+      "image": "https://images.unsplash.com/photo-1508921912046-7a5d12f6266f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "animal_id": "995a7b64-4a91-4974-a97e-034422e14806",
+      "name": "Siamese Cat",
+      "image": "https://images.unsplash.com/photo-1543466835-00a7904e90c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "animal_id": "691f5085-d647-439f-a24e-313602590439",
+      "name": "African Grey Parrot",
+      "image": "https://images.unsplash.com/photo-1558978480-4504d14a9245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "animal_id": "7048a042-a019-4b35-bc3d-9f0b31e85600",
+      "name": "Bengal Tiger",
+      "image": "https://images.unsplash.com/photo-1573167725866-5c07d1008d53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "animal_id": "d2463321-8333-4e19-a0e8-9d50b0e88824",
+      "name": "German Shepherd",
+      "image": "https://images.unsplash.com/photo-1517849845537-4d2578861807?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    }
+  ]);
+});
