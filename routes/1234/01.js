@@ -19,20 +19,25 @@ router.get('/user', (req, res) => {
 
 router.get('/products', (req, res) => {
   res.json([
-    { "product_id": "1", "name": "Product A", "age": 10 },
-    { "product_id": "2", "name": "Product B", "age": 20 },
-    { "product_id": "3", "name": "Product C", "age": 30 },
-    { "product_id": "4", "name": "Product D", "age": 40 },
-    { "product_id": "5", "name": "Product E", "age": 50 }
-  ]);
-});
-
-router.get('/products', (req, res) => {
-  res.json([
     { "product_id": "p1", "name": "Product 1", "age": 10 },
     { "product_id": "p2", "name": "Product 2", "age": 20 },
     { "product_id": "p3", "name": "Product 3", "age": 30 },
     { "product_id": "p4", "name": "Product 4", "age": 40 },
     { "product_id": "p5", "name": "Product 5", "age": 50 }
+  ]);
+});
+
+router.get('/dinosaur', (req, res) => {
+  res.json([
+    { dino_id: '1', name: 'Triceratops', age: 65 },
+    { dino_id: '2', name: 'Stegosaurus', age: 150 },
+    { dino_id: '3', name: 'Tyrannosaurus Rex', age: 67 },
+    { dino_id: '4', name: 'Velociraptor', age: 75 },
+    { dino_id: '5', name: 'Brachiosaurus', age: 100 },
+    { dino_id: '6', name: 'Ankylosaurus', age: 66 },
+    { dino_id: '7', name: 'Parasaurolophus', age: 72 },
+    { dino_id: '8', name: 'Diplodocus', age: 100 },
+    { dino_id: '9', name: 'Compsognathus', age: 150 },
+    { dino_id: '10', name: 'Pachycephalosaurus', age: 80 }
   ]);
 });
