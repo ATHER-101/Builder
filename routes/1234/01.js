@@ -42,47 +42,17 @@ router.get('/dinosaur', (req, res) => {
   ]);
 });
 
-router.get('/animals', (req, res) => {
-  res.json([
-    {
-      "animal_id": "b879c567-a471-48f2-b253-d80426e45277",
-      "name": "Golden Retriever",
-      "image": "https://images.unsplash.com/photo-1508923652103-8ba725ecd7f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    },
-    {
-      "animal_id": "1937f693-b65c-450b-a73a-5234107633e4",
-      "name": "Siamese Cat",
-      "image": "https://images.unsplash.com/photo-1532373359642-2a0d224e41c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    },
-    {
-      "animal_id": "8e3e0489-554d-4681-8d55-12280e734f2b",
-      "name": "African Grey Parrot",
-      "image": "https://images.unsplash.com/photo-1549375430-053c3932e98b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    },
-    {
-      "animal_id": "269f4813-97d2-4604-80c1-099a6b3c7319",
-      "name": "Bengal Tiger",
-      "image": "https://images.unsplash.com/photo-1535040460856-216785c13556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    },
-    {
-      "animal_id": "d7c125b7-b7b6-4519-813a-9384399d520c",
-      "name": "Red-eared Slider Turtle",
-      "image": "https://images.unsplash.com/photo-1529751877344-a072521f8076?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    }
-  ]);
-});
-
 router.get('/dino', (req, res) => {
   res.json([
     { "dino_id": "1", "name": "Tyrannosaurus Rex", "age": 67 },
     { "dino_id": "2", "name": "Stegosaurus", "age": 145 },
     { "dino_id": "3", "name": "Triceratops", "age": 68 },
     { "dino_id": "4", "name": "Velociraptor", "age": 75 },
-    { "dino_id": "5", "name": "Brachiosaurus", "age": 150 },
-    { "dino_id": "6", "name": "Ankylosaurus", "age": 66 },
-    { "dino_id": "7", "name": "Diplodocus", "age": 155 },
-    { "dino_id": "8", "name": "Parasaurolophus", "age": 72 },
-    { "dino_id": "9", "name": "Spinosaurus", "age": 97 },
-    { "dino_id": "10", "name": "Corythosaurus", "age": 79 }
+    { "dino_id": "5", "name": "Ankylosaurus", "age": 66 },
+    { "dino_id": "6", "name": "Brachiosaurus", "age": 145 },
+    { "dino_id": "7", "name": "Parasaurolophus", "age": 76 },
+    { "dino_id": "8", "name": "Diplodocus", "age": 150 },
+    { "dino_id": "9", "name": "Compsognathus", "age": 150 },
+    { "dino_id": "10", "name": "Spinosaurus", "age": 97 }
   ]);
 });
