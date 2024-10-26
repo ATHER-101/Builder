@@ -20,3 +20,26 @@ router.get('/random', (req, res) => {
     }
   ]);
 });
+
+router.get('/random1', (req, res) => {
+  res.json([
+    {
+      "user_id": "user1",
+      "name": "John Doe",
+      "age": 30,
+      "random_number": 0.54321
+    },
+    {
+      "user_id": "user2",
+      "name": "Jane Doe",
+      "age": 25,
+      "random_number": 0.87654
+    },
+    {
+      "user_id": "user3",
+      "name": "Peter Pan",
+      "age": 10,
+      "random_number": 0.12345
+    }
+  ]);
+});
