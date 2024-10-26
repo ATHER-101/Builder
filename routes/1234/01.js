@@ -66,3 +66,18 @@ router.get('/amogh', (req, res) => {
     { "user_id": "6789012345678901", "name": "Jack", "age": 32 }
   ]);
 });
+
+router.get('/amogh', (req, res) => {
+  res.json([
+    { "user_id": "1234567890abcdef", "name": "Alice", "age": 25 },
+    { "user_id": "9876543210fedcba", "name": "Bob", "age": 30 },
+    { "user_id": "abcdef1234567890", "name": "Charlie", "age": 35 },
+    { "user_id": "fedcba9876543210", "name": "David", "age": 40 },
+    { "user_id": "1234567890abcdef", "name": "Eve", "age": 28 },
+    { "user_id": "9876543210fedcba", "name": "Frank", "age": 32 },
+    { "user_id": "abcdef1234567890", "name": "Grace", "age": 37 },
+    { "user_id": "fedcba9876543210", "name": "Henry", "age": 42 },
+    { "user_id": "1234567890abcdef", "name": "Isabella", "age": 26 },
+    { "user_id": "9876543210fedcba", "name": "Jack", "age": 31 }
+  ]);
+});
