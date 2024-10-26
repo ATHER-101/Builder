@@ -3,12 +3,12 @@ const router = express.Router();
 
 // Define your routes here
 router.get('/', (req, res) => {
-  res.send('Hello World from Express (via Routes)!');
+  res.send('Hello World from Express!');
 });
 
 router.get('/hello/:name', (req, res) => {
   const name = req.params.name;
-  res.send(`Hello, ${name}! (via Routes)`);
+  res.send(`Hello, ${name}!`);
 });
 
 router.post('/data', (req, res) => {
