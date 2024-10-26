@@ -51,3 +51,18 @@ router.get('/atharva', (req, res) => {
     { user_id: 'user3', name: 'Peter Jones', age: 40 }
   ]);
 });
+
+router.get('/amogh', (req, res) => {
+  res.json([
+    { "user_id": "f876543210987654", "name": "Alice", "age": 25 },
+    { "user_id": "1234567890123456", "name": "Bob", "age": 30 },
+    { "user_id": "9876543210123456", "name": "Charlie", "age": 28 },
+    { "user_id": "4567890123456789", "name": "David", "age": 22 },
+    { "user_id": "0123456789012345", "name": "Eve", "age": 29 },
+    { "user_id": "7890123456789012", "name": "Frank", "age": 31 },
+    { "user_id": "3456789012345678", "name": "Grace", "age": 27 },
+    { "user_id": "2345678901234567", "name": "Henry", "age": 26 },
+    { "user_id": "5678901234567890", "name": "Ivy", "age": 24 },
+    { "user_id": "6789012345678901", "name": "Jack", "age": 32 }
+  ]);
+});
