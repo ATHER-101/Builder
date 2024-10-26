@@ -71,3 +71,18 @@ router.get('/animals', (req, res) => {
     }
   ]);
 });
+
+router.get('/dino', (req, res) => {
+  res.json([
+    { "dino_id": "1", "name": "Tyrannosaurus Rex", "age": 67 },
+    { "dino_id": "2", "name": "Stegosaurus", "age": 145 },
+    { "dino_id": "3", "name": "Triceratops", "age": 68 },
+    { "dino_id": "4", "name": "Velociraptor", "age": 75 },
+    { "dino_id": "5", "name": "Brachiosaurus", "age": 150 },
+    { "dino_id": "6", "name": "Ankylosaurus", "age": 66 },
+    { "dino_id": "7", "name": "Diplodocus", "age": 155 },
+    { "dino_id": "8", "name": "Parasaurolophus", "age": 72 },
+    { "dino_id": "9", "name": "Spinosaurus", "age": 97 },
+    { "dino_id": "10", "name": "Corythosaurus", "age": 79 }
+  ]);
+});
