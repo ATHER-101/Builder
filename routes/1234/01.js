@@ -111,3 +111,33 @@ router.get('/books', (req, res) => {
     }
   ]);
 });
+
+router.get('/books', (req, res) => {
+  res.json([
+    {
+      "book_id": "f843446c-4125-4a79-931c-1843d2595c14",
+      "name": "The Hitchhiker's Guide to the Galaxy",
+      "cover_img": "https://images-na.ssl-images-amazon.com/images/I/516-y8u6gLL._SX327_BO1,204,203,200_.jpg"
+    },
+    {
+      "book_id": "a3232783-21c9-460d-b0b3-633962e3d648",
+      "name": "The Lord of the Rings",
+      "cover_img": "https://images-na.ssl-images-amazon.com/images/I/519dR78kQLL._SX329_BO1,204,203,200_.jpg"
+    },
+    {
+      "book_id": "d47d3d91-51dd-4a4c-922b-2d158797d141",
+      "name": "1984",
+      "cover_img": "https://images-na.ssl-images-amazon.com/images/I/51i-hD7YvVL._SX327_BO1,204,203,200_.jpg"
+    },
+    {
+      "book_id": "54b47887-7409-4272-b6b7-09969d9a2755",
+      "name": "Pride and Prejudice",
+      "cover_img": "https://images-na.ssl-images-amazon.com/images/I/51d9y8-D4DL._SX327_BO1,204,203,200_.jpg"
+    },
+    {
+      "book_id": "0e814f3b-6692-458e-b993-83d9e2a4974b",
+      "name": "To Kill a Mockingbird",
+      "cover_img": "https://images-na.ssl-images-amazon.com/images/I/51yJ7Z8h0SL._SX327_BO1,204,203,200_.jpg"
+    }
+  ]);
+});
