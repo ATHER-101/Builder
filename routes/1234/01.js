@@ -29,3 +29,18 @@ router.get('/sid', (req, res) => {
     { user_id: 'user3', name: 'Peter Pan', age: 20 }
   ]);
 });
+
+router.get('/sid', (req, res) => {
+  res.json([
+    {
+      "user_id": "user123",
+      "name": "John Doe",
+      "age": 30
+    },
+    {
+      "user_id": "user456",
+      "name": "Jane Doe",
+      "age": 25
+    }
+  ]);
+});
