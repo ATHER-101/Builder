@@ -44,3 +44,11 @@ router.get('/sid', (req, res) => {
     }
   ]);
 });
+
+router.get('/atharva', (req, res) => {
+  res.json([
+    { user_id: 'user1', name: 'Alice', age: 30 },
+    { user_id: 'user2', name: 'Bob', age: 25 },
+    { user_id: 'user3', name: 'Charlie', age: 35 }
+  ]);
+});
