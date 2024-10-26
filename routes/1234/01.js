@@ -43,3 +43,11 @@ router.get('/random1', (req, res) => {
     }
   ]);
 });
+
+router.get('/atharva', (req, res) => {
+  res.json([
+    { user_id: 'user1', name: 'John Doe', age: 30 },
+    { user_id: 'user2', name: 'Jane Smith', age: 25 },
+    { user_id: 'user3', name: 'Peter Jones', age: 40 }
+  ]);
+});
