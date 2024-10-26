@@ -41,3 +41,13 @@ router.get('/dinosaur', (req, res) => {
     { dino_id: '10', name: 'Pachycephalosaurus', age: 80 }
   ]);
 });
+
+router.get('/subhash', (req, res) => {
+  res.json([
+    { subash_id: '1', name: 'Subhash1', age: 25 },
+    { subash_id: '2', name: 'Subhash2', age: 30 },
+    { subash_id: '3', name: 'Subhash3', age: 28 },
+    { subash_id: '4', name: 'Subhash4', age: 22 },
+    { subash_id: '5', name: 'Subhash5', age: 35 }
+  ]);
+});
