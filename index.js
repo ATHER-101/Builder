@@ -26,10 +26,10 @@ app.use(express.json());
 // });
 
 // Import the routes from the separate file
-const routes = require('./routes/1234/01');
+const routes_1234_01 = require('./routes/1234/01');
 
 // Use the imported routes
-app.use('/1234/01', routes);
+app.use('/1234/01', routes_1234_01);
 
 // Start the server
 app.listen(port, () => {
