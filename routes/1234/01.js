@@ -42,92 +42,32 @@ router.get('/dinosaur', (req, res) => {
   ]);
 });
 
-router.get('/books', (req, res) => {
-  res.json([
-    {
-      "book_id": "1234567890abcdef",
-      "name": "The Hitchhiker's Guide to the Galaxy",
-      "cover_img": "https://images-na.ssl-images-amazon.com/images/I/51y-V-9e7SL._SX328_BO1,204,203,200_.jpg"
-    },
-    {
-      "book_id": "9876543210fedcba",
-      "name": "The Lord of the Rings",
-      "cover_img": "https://images-na.ssl-images-amazon.com/images/I/51L-P2hF3SL._SX328_BO1,204,203,200_.jpg"
-    },
-    {
-      "book_id": "abcdef1234567890",
-      "name": "Pride and Prejudice",
-      "cover_img": "https://images-na.ssl-images-amazon.com/images/I/51o6w2t2OOL._SX328_BO1,204,203,200_.jpg"
-    },
-    {
-      "book_id": "fedcba9876543210",
-      "name": "To Kill a Mockingbird",
-      "cover_img": "https://images-na.ssl-images-amazon.com/images/I/51D+0p06xHL._SX328_BO1,204,203,200_.jpg"
-    },
-    {
-      "book_id": "1234567890abcdef",
-      "name": "The Great Gatsby",
-      "cover_img": "https://images-na.ssl-images-amazon.com/images/I/51s2zV45iWL._SX328_BO1,204,203,200_.jpg"
-    }
-  ]);
-});
-
 router.get('/animals', (req, res) => {
   res.json([
     {
-      "animal_id": "f876a452-4564-4874-8b87-e776a8d675d8",
-      "name": "Dog",
-      "image": "https://images.unsplash.com/photo-1509721492673-95b1b887838e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    },
-    {
-      "animal_id": "e5217344-2248-4958-a518-8a5445b7e023",
-      "name": "Cat",
-      "image": "https://images.unsplash.com/photo-1543464788-0d41980d529c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    },
-    {
-      "animal_id": "f7518d53-6f7f-4140-b720-38d9398834ef",
-      "name": "Bird",
-      "image": "https://images.unsplash.com/photo-1581241122291-394e2c05fa0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    },
-    {
-      "animal_id": "d47d6732-a78a-4557-a57c-01497f11f792",
-      "name": "Fish",
-      "image": "https://images.unsplash.com/photo-1571466810255-628097220a67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    },
-    {
-      "animal_id": "3df4a966-b2a2-43a3-a8a8-114a0a5eb96f",
-      "name": "Rabbit",
-      "image": "https://images.unsplash.com/photo-1585463211228-485965c87519?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    }
-  ]);
-});
-
-router.get('/animals', (req, res) => {
-  res.json([
-    {
-      "animal_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "animal_id": "f876a543-292d-489d-892a-305014d7285e",
       "name": "Golden Retriever",
-      "image": "https://images.unsplash.com/photo-1508921912046-7a5d12f6266f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      "image": "https://images.unsplash.com/photo-1508923551106-30e4905b0a94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     },
     {
-      "animal_id": "995a7b64-4a91-4974-a97e-034422e14806",
+      "animal_id": "d2b74c35-a595-42d8-898c-9295a8193f84",
       "name": "Siamese Cat",
-      "image": "https://images.unsplash.com/photo-1543466835-00a7904e90c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      "image": "https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     },
     {
-      "animal_id": "691f5085-d647-439f-a24e-313602590439",
+      "animal_id": "6a46670a-9b87-45a6-99a9-f679dfb6a216",
       "name": "African Grey Parrot",
-      "image": "https://images.unsplash.com/photo-1558978480-4504d14a9245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      "image": "https://images.unsplash.com/photo-1586303970407-d34e621088b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     },
     {
-      "animal_id": "7048a042-a019-4b35-bc3d-9f0b31e85600",
+      "animal_id": "93d54c7c-04e2-4105-a561-058527857c35",
       "name": "Bengal Tiger",
-      "image": "https://images.unsplash.com/photo-1573167725866-5c07d1008d53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      "image": "https://images.unsplash.com/photo-1561672956-92441792194d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     },
     {
-      "animal_id": "d2463321-8333-4e19-a0e8-9d50b0e88824",
+      "animal_id": "e37269d3-a63a-4c0d-b748-d8b8650b0d45",
       "name": "German Shepherd",
-      "image": "https://images.unsplash.com/photo-1517849845537-4d2578861807?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      "image": "https://images.unsplash.com/photo-1534928769421-1a5580b36380?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     }
   ]);
 });
