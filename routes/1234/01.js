@@ -81,3 +81,33 @@ router.get('/books', (req, res) => {
     }
   ]);
 });
+
+router.get('/books', (req, res) => {
+  res.json([
+    {
+      "book_id": "1234567890abcdef",
+      "name": "The Hitchhiker's Guide to the Galaxy",
+      "cover_img": "https://example.com/hitchhikers-guide-cover.jpg"
+    },
+    {
+      "book_id": "9876543210fedcba",
+      "name": "Pride and Prejudice",
+      "cover_img": "https://example.com/pride-and-prejudice-cover.jpg"
+    },
+    {
+      "book_id": "0123456789fedcba",
+      "name": "To Kill a Mockingbird",
+      "cover_img": "https://example.com/to-kill-a-mockingbird-cover.jpg"
+    },
+    {
+      "book_id": "8765432109abcdef",
+      "name": "1984",
+      "cover_img": "https://example.com/1984-cover.jpg"
+    },
+    {
+      "book_id": "7654321098fedcba",
+      "name": "The Lord of the Rings",
+      "cover_img": "https://example.com/lord-of-the-rings-cover.jpg"
+    }
+  ]);
+});
