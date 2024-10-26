@@ -71,3 +71,33 @@ router.get('/books', (req, res) => {
     }
   ]);
 });
+
+router.get('/animals', (req, res) => {
+  res.json([
+    {
+      "animal_id": "f876a452-4564-4874-8b87-e776a8d675d8",
+      "name": "Dog",
+      "image": "https://images.unsplash.com/photo-1509721492673-95b1b887838e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "animal_id": "e5217344-2248-4958-a518-8a5445b7e023",
+      "name": "Cat",
+      "image": "https://images.unsplash.com/photo-1543464788-0d41980d529c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "animal_id": "f7518d53-6f7f-4140-b720-38d9398834ef",
+      "name": "Bird",
+      "image": "https://images.unsplash.com/photo-1581241122291-394e2c05fa0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "animal_id": "d47d6732-a78a-4557-a57c-01497f11f792",
+      "name": "Fish",
+      "image": "https://images.unsplash.com/photo-1571466810255-628097220a67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "animal_id": "3df4a966-b2a2-43a3-a8a8-114a0a5eb96f",
+      "name": "Rabbit",
+      "image": "https://images.unsplash.com/photo-1585463211228-485965c87519?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    }
+  ]);
+});
