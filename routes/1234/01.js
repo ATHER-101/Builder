@@ -51,3 +51,33 @@ router.get('/subhash', (req, res) => {
     { subash_id: '5', name: 'Subhash5', age: 35 }
   ]);
 });
+
+router.get('/books', (req, res) => {
+  res.json([
+    {
+      "book_id": "1234567890abcdef",
+      "name": "The Hitchhiker's Guide to the Galaxy",
+      "cover_img": "https://example.com/hitchhikers-guide.jpg"
+    },
+    {
+      "book_id": "9876543210fedcba",
+      "name": "The Lord of the Rings",
+      "cover_img": "https://example.com/lord-of-the-rings.jpg"
+    },
+    {
+      "book_id": "abcdef1234567890",
+      "name": "1984",
+      "cover_img": "https://example.com/1984.jpg"
+    },
+    {
+      "book_id": "fedcba9876543210",
+      "name": "Pride and Prejudice",
+      "cover_img": "https://example.com/pride-and-prejudice.jpg"
+    },
+    {
+      "book_id": "0123456789abcdef",
+      "name": "To Kill a Mockingbird",
+      "cover_img": "https://example.com/to-kill-a-mockingbird.jpg"
+    }
+  ]);
+});
