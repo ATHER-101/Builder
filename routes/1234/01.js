@@ -45,29 +45,29 @@ router.get('/dinosaur', (req, res) => {
 router.get('/animals', (req, res) => {
   res.json([
     {
-      "animal_id": "f876a543-292d-489d-892a-305014d7285e",
+      "animal_id": "b879c567-a471-48f2-b253-d80426e45277",
       "name": "Golden Retriever",
-      "image": "https://images.unsplash.com/photo-1508923551106-30e4905b0a94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      "image": "https://images.unsplash.com/photo-1508923652103-8ba725ecd7f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
     },
     {
-      "animal_id": "d2b74c35-a595-42d8-898c-9295a8193f84",
+      "animal_id": "1937f693-b65c-450b-a73a-5234107633e4",
       "name": "Siamese Cat",
-      "image": "https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      "image": "https://images.unsplash.com/photo-1532373359642-2a0d224e41c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
     },
     {
-      "animal_id": "6a46670a-9b87-45a6-99a9-f679dfb6a216",
+      "animal_id": "8e3e0489-554d-4681-8d55-12280e734f2b",
       "name": "African Grey Parrot",
-      "image": "https://images.unsplash.com/photo-1586303970407-d34e621088b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      "image": "https://images.unsplash.com/photo-1549375430-053c3932e98b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
     },
     {
-      "animal_id": "93d54c7c-04e2-4105-a561-058527857c35",
+      "animal_id": "269f4813-97d2-4604-80c1-099a6b3c7319",
       "name": "Bengal Tiger",
-      "image": "https://images.unsplash.com/photo-1561672956-92441792194d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      "image": "https://images.unsplash.com/photo-1535040460856-216785c13556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
     },
     {
-      "animal_id": "e37269d3-a63a-4c0d-b748-d8b8650b0d45",
-      "name": "German Shepherd",
-      "image": "https://images.unsplash.com/photo-1534928769421-1a5580b36380?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      "animal_id": "d7c125b7-b7b6-4519-813a-9384399d520c",
+      "name": "Red-eared Slider Turtle",
+      "image": "https://images.unsplash.com/photo-1529751877344-a072521f8076?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
     }
   ]);
 });
