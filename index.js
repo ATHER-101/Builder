@@ -22,3 +22,11 @@ app.use('/1234/test2', routes_1234_test2);
 const routes_2345_test1 = require('./routes/2345/test1');
 app.use('/2345/test1', routes_2345_test1);
 
+
+const routes_1234_test3 = require('./routes/1234/test3');
+app.use('/1234/test3', routes_1234_test3);
+
+
+const routes_1234_test3 = require('./routes/1234/test3');
+app.use('/1234/test3', routes_1234_test3);
+
