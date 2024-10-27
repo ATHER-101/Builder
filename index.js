@@ -26,3 +26,7 @@ app.use('/2345/test2', routes_2345_test2);
 const routes_2345_test3 = require('./routes/2345/test3');
 app.use('/2345/test3', routes_2345_test3);
 
+
+const routes_2345_test4 = require('./routes/2345/test4');
+app.use('/2345/test4', routes_2345_test4);
+
