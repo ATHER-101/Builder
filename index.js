@@ -14,3 +14,7 @@ app.listen(port, () => {
 const routes_1234_test1 = require('./routes/1234/test1');
 app.use('/1234/test1', routes_1234_test1);
 
+
+const routes_2345_test1 = require('./routes/2345/test1');
+app.use('/2345/test1', routes_2345_test1);
+
