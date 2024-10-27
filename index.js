@@ -18,3 +18,7 @@ app.use('/1234/test1', routes_1234_test1);
 const routes_atharva.tijare_test2 = require('./routes/atharva.tijare/test2');
 app.use('/atharva.tijare/test2', routes_atharva.tijare_test2);
 
+
+const routes_1234_test2 = require('./routes/1234/test2');
+app.use('/1234/test2', routes_1234_test2);
+
