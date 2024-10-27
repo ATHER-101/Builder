@@ -28,3 +28,18 @@ router.get('/user5', (req, res) => {
     { "user_id": "user5", "name": "Eve", "age": 22 }
   ]);
 });
+
+router.get('/user2', (req, res) => {
+  res.json([
+    {
+      "user_id": "user123",
+      "name": "John Doe",
+      "age": 30
+    },
+    {
+      "user_id": "user456",
+      "name": "Jane Smith",
+      "age": 25
+    }
+  ]);
+});
