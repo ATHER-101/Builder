@@ -27,6 +27,6 @@ const routes_1234_test3 = require('./routes/1234/test3');
 app.use('/1234/test3', routes_1234_test3);
 
 
-const routes_1234_test3 = require('./routes/1234/test3');
-app.use('/1234/test3', routes_1234_test3);
+const routes_1234_test4 = require('./routes/1234/test4');
+app.use('/1234/test4', routes_1234_test4);
 
