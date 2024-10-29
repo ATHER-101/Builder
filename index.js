@@ -14,6 +14,6 @@ app.listen(port, () => {
 const routes_2345_test1 = require('./routes/2345/test1');
 app.use('/2345/test1', routes_2345_test1);
 
-const routes_2345_amit-singh = require('./routes/2345/amit-singh');
-app.use('/2345/amit-singh', routes_2345_amit-singh);
+const routes_2345_amit = require('./routes/2345/amit');
+app.use('/2345/amit', routes_2345_amit);
 
