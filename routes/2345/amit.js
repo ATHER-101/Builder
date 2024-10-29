@@ -142,3 +142,26 @@ router.post('/put-details', async (req, res) => {
 });
 
     
+router.get('/get-data', async (req, res) => {
+  const { Pool } = require('pg');
+  const pool = new Pool({
+    host: "ep-jolly-glitter-a40z54ab.us-east-1.aws.neon.tech",
+    port: 5432,
+    user: "neondb_owner",
+    password: "Rhm5pKdjblE3",
+    database: "neondb",
+    ssl: {
+        rejectUnauthorized: false,
+    },
+  });
+
+  try {
+    const result = await pool.query('SELECT * FROM amit WHERE subject = $1', ['os']);
+    res.json(result.rows);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Failed to fetch data' });
+  } finally {
+    pool.end();
+  }
+});
