@@ -1,0 +1,137 @@
+[
+  {
+    "user": "1234",
+    "projects": [
+      {
+        "project_name": "test1",
+        "endpoints": [
+          {
+            "endpoint_name": "user5",
+            "method": "GET"
+          },
+          {
+            "endpoint_name": "user2",
+            "method": "GET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "2345",
+    "projects": [
+      {
+        "project_name": "test1",
+        "endpoints": [
+          {
+            "endpoint_name": "user1",
+            "method": "GET"
+          },
+          {
+            "endpoint_name": "user2",
+            "method": "GET"
+          },
+          {
+            "endpoint_name": "user2",
+            "method": "GET"
+          },
+          {
+            "endpoint_name": "user2",
+            "method": "GET"
+          },
+          {
+            "endpoint_name": "user3",
+            "method": "GET"
+          }
+        ],
+        "database": {
+          "host": "ep-jolly-glitter-a40z54ab.us-east-1.aws.neon.tech",
+          "port": "5432",
+          "user": "neondb_owner",
+          "password": "Rhm5pKdjblE3",
+          "database": "neondb"
+        }
+      },
+      {
+        "project_name": "test2",
+        "endpoints": [
+          {
+            "endpoint_name": "user1",
+            "method": "GET"
+          }
+        ],
+        "database": {
+          "host": "ep-jolly-glitter-a40z54ab.us-east-1.aws.neon.tech",
+          "port": "5432",
+          "user": "neondb_owner",
+          "password": "Rhm5pKdjblE3",
+          "database": "neondb"
+        }
+      },
+      {
+        "project_name": "test3",
+        "endpoints": [
+          {
+            "endpoint_name": "user2",
+            "method": "GET"
+          },
+          {
+            "endpoint_name": "user10",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "project_name": "test4",
+        "endpoints": [
+          {
+            "endpoint_name": "user1",
+            "method": "GET"
+          },
+          {
+            "endpoint_name": "user10",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "project_name": "first",
+        "endpoints": [
+          {
+            "endpoint_name": "user",
+            "method": "GET"
+          },
+          {
+            "endpoint_name": "user5",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "project_name": "test5",
+        "endpoints": [
+          {
+            "endpoint_name": "random",
+            "method": "GET"
+          }
+        ],
+        "database": {
+          "host": "ep-jolly-glitter-a40z54ab.us-east-1.aws.neon.tech",
+          "port": 5432,
+          "user": "neondb_owner",
+          "password": "Rhm5pKdjblE3",
+          "database": "neondb"
+        }
+      },
+      {
+        "project_name": "test6",
+        "endpoints": [
+          {
+            "endpoint_name": "user1",
+            "method": "GET"
+          }
+        ]
+      }
+    ]
+  }
+]
