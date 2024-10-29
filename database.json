@@ -10,18 +10,6 @@
             "method": "GET"
           },
           {
-            "endpoint_name": "user2",
-            "method": "GET"
-          },
-          {
-            "endpoint_name": "user2",
-            "method": "GET"
-          },
-          {
-            "endpoint_name": "user2",
-            "method": "GET"
-          },
-          {
             "endpoint_name": "user3",
             "method": "GET"
           },
@@ -30,15 +18,7 @@
             "method": "POST"
           },
           {
-            "endpoint_name": "insert-user-2",
-            "method": "POST"
-          },
-          {
             "endpoint_name": "get-users",
-            "method": "GET"
-          },
-          {
-            "endpoint_name": "get-users-1",
             "method": "GET"
           }
         ],
