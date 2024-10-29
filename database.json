@@ -50,6 +50,10 @@
           {
             "endpoint_name": "insert-user-2",
             "method": "POST"
+          },
+          {
+            "endpoint_name": "get-users",
+            "method": "GET"
           }
         ],
         "database": {
@@ -166,6 +170,14 @@
           {
             "endpoint_name": "insert-user-4",
             "method": "POST"
+          },
+          {
+            "endpoint_name": "get-users",
+            "method": "GET"
+          },
+          {
+            "endpoint_name": "get-users",
+            "method": "GET"
           }
         ],
         "database": {
