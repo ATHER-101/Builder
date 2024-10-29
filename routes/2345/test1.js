@@ -293,3 +293,26 @@ router.post('/insert-user-2', async (req, res) => {
 });
 
     
+router.get('/get-users', async (req, res) => {
+  const { Pool } = require('pg');
+  const pool = new Pool({
+    host: "ep-jolly-glitter-a40z54ab.us-east-1.aws.neon.tech",
+    port: 5432,
+    user: "neondb_owner",
+    password: "Rhm5pKdjblE3",
+    database: "neondb",
+    ssl: {
+        rejectUnauthorized: false,
+    },
+  });
+
+  try {
+    const result = await pool.query('SELECT * FROM test WHERE age < 30 AND LENGTH(name) < 5');
+    res.json(result.rows);
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error retrieving users');
+  } finally {
+    pool.end();
+  }
+});
